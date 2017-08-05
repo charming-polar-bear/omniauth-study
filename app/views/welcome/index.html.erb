@@ -1,0 +1,9 @@
+<%= link_to '登入', new_user_registration_path %>
+
+<%= link_to '登出', destroy_user_session_path, method: :delete %>
+<h1>
+  是否已登录  <%= !!current_user %>
+  <% if !!current_user %>
+    <%= current_user.email %>
+  <% end %>
+</h1>
