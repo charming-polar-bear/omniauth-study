@@ -38,4 +38,4 @@ require "capistrano/rails/migrations"
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 
 
-load 'deploy/assets'
+# load 'deploy/assets'
