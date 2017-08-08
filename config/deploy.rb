@@ -8,7 +8,7 @@ lock "3.8.2"
 
 # lock "3.7.2"
   set :application, "ominiauth-study"
-  set :repo_url, "git@github.com:ZengGIFT/ominiauth-study.git"
+  set :repo_url, "git@github.com:charming-polar-bear/omniauth-study.git"
   set :deploy_to, "/home/apps/ominiauth-study"
   set :linked_files, fetch(:linked_files, []).push('config/database.yml',
   'config/secrets.yml')
