@@ -46,6 +46,14 @@ gem 'figaro'
 
 gem 'omniauth-wechat-oauth2'
 
+group :production do
+    gem "capistrano", "~> 3.4"
+    gem "capistrano-rvm"
+    gem "capistrano-rails"
+    gem 'capistrano-figaro-yml', '~> 1.0.2'
+end
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
