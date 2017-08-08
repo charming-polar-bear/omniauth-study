@@ -15,6 +15,7 @@ lock "3.8.2"
   set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache',
   'tmp/sockets', 'vendor/bundle')
 
+  set :passenger_restart_with_touch, true
 
 
 # Default branch is :master
