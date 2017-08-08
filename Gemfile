@@ -47,6 +47,7 @@ gem 'figaro'
 gem 'omniauth-wechat-oauth2'
 
 group :production do
+    gem 'pg'
     gem "capistrano", "~> 3.4"
     gem "capistrano-rvm"
     gem "capistrano-rails"
