@@ -259,6 +259,10 @@ Devise.setup do |config|
   config.omniauth :wechat, ENV["WECHAT_CLIENT_ID"], ENV["WECHAT_CLIENT_SECRET"], :authorize_params => {:scope => "snsapi_userinfo"}
 
 
+
+
+
+
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
